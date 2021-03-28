@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.OperacoesController">
+   <children>
+      <Button fx:id="botaoSaldo" layoutX="150.0" layoutY="200.0" mnemonicParsing="false" onAction="#acaoBotaoSaldo" prefHeight="50.0" prefWidth="150.0" text="Saldo">
+         <font>
+            <Font size="18.0" />
+         </font></Button>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="100.0" layoutY="50.0" prefHeight="50.0" prefWidth="600.0" text="Bem vindo" textAlignment="CENTER">
+         <font>
+            <Font size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="150.0" layoutY="150.0" prefHeight="50.0" prefWidth="600.0" text="Escolha a operação desejada">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelSaldo" layoutX="150.0" layoutY="283.0" prefHeight="41.0" prefWidth="416.0" />
+      <Button fx:id="botaoSaque" layoutX="325.0" layoutY="200.0" mnemonicParsing="false" onAction="#acaoBotaoSaque" prefHeight="50.0" prefWidth="150.0" text="Saque">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="botaoExtrato" layoutX="491.0" layoutY="200.0" mnemonicParsing="false" onAction="#acaoBotaoExtrato" prefHeight="50.0" prefWidth="150.0" text="Extrato">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="botaoTransferencia" layoutX="150.0" layoutY="258.0" mnemonicParsing="false" onAction="#acaoBotaoTransferencia" prefHeight="50.0" prefWidth="150.0" text="Transferências">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="botaoSair" layoutX="325.0" layoutY="258.0" mnemonicParsing="false" onAction="#acaoBotaoSair" prefHeight="50.0" prefWidth="150.0" text="Sair">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
